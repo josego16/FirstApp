@@ -1,6 +1,7 @@
 package com.example.firstapp
 
 import android.content.Intent
+import android.net.Uri
 import android.os.Bundle
 import android.provider.AlarmClock
 import android.widget.ImageButton
@@ -30,6 +31,15 @@ class MainActivity : AppCompatActivity() {
         buttonAlarma.setOnClickListener {
             crearAlarma("Alarma", 21, 21)
         }
+        buttonUrl.setOnClickListener {
+            crearWebsite()
+        }
+    }
+
+    private fun crearWebsite() {
+        val url = "https://developer.android.com/kotlin?hl=es-419"
+        val urlIntent = Intent(Intent.ACTION_VIEW, Uri.parse(url))
+        startActivity(urlIntent)
     }
 
     private fun crearAlarma(message: String, hour: Int, minutes: Int) {
