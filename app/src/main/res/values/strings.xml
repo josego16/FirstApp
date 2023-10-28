@@ -10,4 +10,6 @@
     <string name="descripcion_calcImc">calc para saber tu indice de peso corporal</string>
     <string name="texto_url">Website</string>
     <string name="texto_calcImc">Calc Imc</string>
+    <string name="crear_llamada">REALIZA UNA LLAMADA</string>
+    <string name="descripcion_explicito">boton para realizar la llamada</string>
 </resources>
