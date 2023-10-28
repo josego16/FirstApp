@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">FirstApp</string>
     <string name="presentacion">Bienvenido a mi primera App</string>
-    <string name="presentacionV2">Soy Jose Maria</string>
+    <string name="presentacionV2">Diseñado por Jose Maria</string>
     <string name="descripcion_llamada">llamar por telefono</string>
     <string name="descripcion_alarma">es una alarma</string>
     <string name="texto_llamada">Telefono</string>
