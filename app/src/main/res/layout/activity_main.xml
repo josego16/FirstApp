@@ -63,29 +63,29 @@
         android:text="@string/texto_url"
         android:textColor="@color/white"
         android:textSize="20sp"
-        app:layout_constraintEnd_toStartOf="@+id/btn_calcImc"
+        app:layout_constraintEnd_toStartOf="@+id/btn_correo"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btn_url" />
 
     <TextView
-        android:id="@+id/texto_calcImc"
+        android:id="@+id/texto_correo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
-        android:layout_marginEnd="92dp"
-        android:text="@string/texto_calcImc"
+        android:layout_marginEnd="80dp"
+        android:text="@string/texto_correo"
         android:textColor="@color/white"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/texto_url"
-        app:layout_constraintTop_toBottomOf="@+id/btn_calcImc" />
+        app:layout_constraintTop_toBottomOf="@+id/btn_correo" />
 
     <ImageButton
         android:id="@+id/btn_llamada"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="100dp"
-        android:layout_marginBottom="520dp"
+        android:layout_marginBottom="450dp"
         android:background="@drawable/call_48"
         android:contentDescription="@string/descripcion_llamada"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -96,7 +96,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="100dp"
-        android:layout_marginBottom="520dp"
+        android:layout_marginBottom="450dp"
         android:background="@drawable/alarm_48"
         android:contentDescription="@string/descripcion_alarma"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -107,7 +107,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="90dp"
-        android:layout_marginBottom="350dp"
+        android:layout_marginBottom="300dp"
         android:background="@drawable/url_48"
         android:contentDescription="@string/descripcion_url"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -115,13 +115,14 @@
         app:layout_constraintTop_toBottomOf="@+id/texto_llamada" />
 
     <ImageButton
-        android:id="@+id/btn_calcImc"
+        android:id="@+id/btn_correo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="90dp"
-        android:layout_marginBottom="380dp"
-        android:background="@drawable/calc_imc_48"
-        android:contentDescription="@string/descripcion_calcImc"
+        android:layout_marginBottom="300dp"
+        android:background="@drawable/baseline_alternate_email_48"
+        android:contentDescription="@string/descripcion_correo"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/texto_alarma" />
 </androidx.constraintlayout.widget.ConstraintLayout>

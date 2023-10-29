@@ -7,9 +7,9 @@
     <string name="texto_llamada">Telefono</string>
     <string name="texto_alarma">Alarma</string>
     <string name="descripcion_url">website</string>
-    <string name="descripcion_calcImc">calc para saber tu indice de peso corporal</string>
+    <string name="descripcion_correo">esto es el correo electronico</string>
     <string name="texto_url">Website</string>
-    <string name="texto_calcImc">Calc Imc</string>
+    <string name="texto_correo">E-mail</string>
     <string name="crear_llamada">REALIZA UNA LLAMADA</string>
     <string name="descripcion_explicito">boton para realizar la llamada</string>
 </resources>
