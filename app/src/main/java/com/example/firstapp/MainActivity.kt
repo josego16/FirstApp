@@ -5,7 +5,6 @@ import android.net.Uri
 import android.os.Bundle
 import android.provider.AlarmClock
 import android.widget.ImageButton
-import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 
 class MainActivity : AppCompatActivity() {
@@ -63,10 +62,11 @@ class MainActivity : AppCompatActivity() {
             putExtra(AlarmClock.EXTRA_HOUR, hour)
             putExtra(AlarmClock.EXTRA_MINUTES, minutes)
         }
-        if (intent.resolveActivity(packageManager) != null) {
+        startActivity(intent)
+        /*if (intent.resolveActivity(packageManager) != null) {
             startActivity(intent)
         } else {
             Toast.makeText(this, "Error, no puedo ejecutar la alarma", Toast.LENGTH_LONG).show()
-        }
+        }*/
     }
 }
