@@ -12,4 +12,6 @@
     <string name="texto_correo">E-mail</string>
     <string name="crear_llamada">REALIZA UNA LLAMADA</string>
     <string name="descripcion_explicito">boton para realizar la llamada</string>
+    <string name="texto_principal">Diseñado por Jose Maria</string>
+    <string name="texto_sub">Grado Superior 2ºDam</string>
 </resources>
