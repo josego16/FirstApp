@@ -4,14 +4,19 @@
     <string name="presentacionV2">Diseñado por Jose Maria</string>
     <string name="descripcion_llamada">llamar por telefono</string>
     <string name="descripcion_alarma">es una alarma</string>
-    <string name="texto_llamada">Telefono</string>
-    <string name="texto_alarma">Alarma</string>
+    <string name="texto_llamada">Call</string>
+    <string name="texto_alarma">Alarm</string>
     <string name="descripcion_url">website</string>
     <string name="descripcion_correo">esto es el correo electronico</string>
-    <string name="texto_url">Website</string>
-    <string name="texto_correo">E-mail</string>
+    <string name="texto_url">Web</string>
+    <string name="texto_correo">Mail</string>
     <string name="crear_llamada">REALIZA UNA LLAMADA</string>
     <string name="descripcion_explicito">boton para realizar la llamada</string>
     <string name="texto_principal">Diseñado por Jose Maria</string>
     <string name="texto_sub">Grado Superior 2ºDam</string>
+    <string name="texto_presentacion">Diseñado por Jose Maria</string>
+    <string name="descrpcion_img">paisaje</string>
+    <string name="texto_juego">Game</string>
+    <string name="texto_apagar">Power</string>
+    <string name="texto_paisaje">El animal vigilando la playa</string>
 </resources>

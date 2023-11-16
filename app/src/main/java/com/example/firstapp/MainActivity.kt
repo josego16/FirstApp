@@ -4,17 +4,17 @@ import android.content.Intent
 import android.net.Uri
 import android.os.Bundle
 import android.provider.AlarmClock
-import android.widget.ImageButton
+import android.widget.Button
 import androidx.appcompat.app.AppCompatActivity
 
 class MainActivity : AppCompatActivity() {
-    private lateinit var buttonLlamada: ImageButton
-    private lateinit var buttonAlarma: ImageButton
-    private lateinit var buttonUrl: ImageButton
-    private lateinit var buttonCorreo: ImageButton
+    private lateinit var buttonLlamada: Button
+    private lateinit var buttonAlarma: Button
+    private lateinit var buttonUrl: Button
+    private lateinit var buttonCorreo: Button
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        setContentView(R.layout.constraint_activity)
 
         buttonLlamada = findViewById(R.id.btn_llamada)
         buttonAlarma = findViewById(R.id.btn_alarma)

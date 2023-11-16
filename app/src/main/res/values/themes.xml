@@ -1,9 +1,19 @@
 <resources>
     <!-- Base application theme. -->
-    <style name="Base.Theme.FirstApp" parent="Theme.Material3.DayNight.NoActionBar">
+    <style name="Base.Theme.FirstApp" parent="Theme.MaterialComponents.Light">
         <!-- Customize your light theme here. -->
-        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="colorPrimary">@color/primaryColor</item>
+        <item name="colorSecondary">@color/primaryTextColor</item>
+        <item name="colorAccent">@color/secondaryColor</item>
     </style>
 
     <style name="Theme.FirstApp" parent="Base.Theme.FirstApp" />
+
+    <style name="CustomButton" parent="Widget.MaterialComponents.Button">
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="strokeColor">@color/secondaryTextColor</item>
+        <item name="strokeWidth">3dp</item>
+        <item name="android:textColor">@color/secondaryColor</item>
+    </style>
 </resources>
